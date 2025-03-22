@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b19222fde9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image1/myimage.png" class="logo">
+    
+                <ul id="sidemenu">
+                    <li><a href="#header" onclick="closemenu()">Home</a></li>
+                    <li><a href="#about" onclick="closemenu()">About</a></li>
+                    <!--
+                    <li><a href="#services" onclick="closemenu()">Services</a></li>
+                    <li><a href="#portfolio" onclick="closemenu()">Portfolio</a></li>
+                -->
+                    <li><a href="#contact" onclick="closemenu()">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark close-icon" onclick="closemenu()"></i>
+                </ul>
+    
+                <i class="fa-solid fa-bars menu-icon" onclick="openmenu()"></i>
+            </nav>
+    
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I am <span>Subhrajit Naskar</span><br> a web developer</h1>
+                <span id="element"></span>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image1/bg.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>"Hey, I'm Subhrajit! I love tech, design, and making things look awesome</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills', event)">Education</p>
+                        <!--
+                        <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+                    -->
+                        <p class="tab-links" onclick="opentab('education', event)">Skills</p>
+                    </div>
+                    <!--
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>COMPUTER SCIENCE ENGINEERING</span><br>persuing in 2nd year in JADAVPUR UNIVERSITY</li>
+                            <li><span>WEB DEVELOPMENT</span><br>Learn Web development in java script, html and css</li>
+                            <li><span>LANGUAGE</span><br>Knowladge in c language, java, cpp, opps in cpp and python</li>
+                        </ul>
+                    </div>
+                -->
+                    
+                  
+                
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li> C language, Java, Python, Cpp, Opps, Data structre & algorithum </li>
+                             <br>
+                            <li> Html, Css, Javascript </li>
+                            
+                        </ul>
+                       
+                    </div>
+
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>JADAVPUR UNIVERSITY</span><br>BE Computer Sience Engineering, <br>2023-2027</li>
+
+                            <br>
+
+                            <li><span>KAMRABAD UCHHA VIDYALAYA</span><br>Class 12(Science)<br> HS pass on 2023</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <!--
+            <h1 class="sub-title">My Self</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>address</h2>
+                    <p>Sonarpur Khurigochhi KOl-700150 south 24 pgs.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Studies</h2>
+                    <p>HS pass on 2023 from Kamrabad Uchha vidyalaya Sonarpur.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Parsuing</h2>
+                    <p>parsuing in BE Computer science engineering from Jadavpur University.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        -->
+        </div>
+    </div>
+    <!--
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Education</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image1/jadavpur1.jpg" alt="Social Media App">
+                    <div class="layer">
+                        <h3>BE SECOUND YEAR</h3>
+                        <p>secound year 4th semister running.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image1/jadavpur2.jpg" alt="Online Shopping App">
+                    <div class="layer">
+                        <h3>LABOTARY</h3>
+                        <p>experiance in labotary wroke.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image1/jadavpur3.png" alt="Music Streaming App">
+                    <div class="layer">
+                        <h3>CODDING</h3>
+                        <p>experince in codding language.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+-->
+
+    <div id="contact">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="contact-left">
+
+                    <h1 class="sub-title">Contact Me</h1>
+
+                    <p><i class="fa-solid fa-paper-plane"></i> subhrajitnaskar516@gmail.com</p>
+
+                    <p><i class="fa-solid fa-phone"></i> 7980432626</p>
+
+                    <div class="social-icons">
+
+                        <a href="https://instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="/"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="/"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="/"><i class="fa-brands fa-square-linkedin"></i></a>
+
+                    </div>
+                    <a href="image/pdf1.pdf" download class="btn btn2">Download CV</a>
+
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                        <span id="msg"></span>  <!-- Ensure this is inside form for proper positioning -->
+                    </form>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &#169; Subhrajit Naskar | All rights reserverd    <i class="fa-solid fa-heart"></i>    | All rights reserverd</p>
+        </div>
+
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname, event) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+        sidemenu.style.right = "-100%"; // Fully hide menu off-screen
+    }
+</script>
+
+    <script>
+
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwFVWQZ79nOf7g2RBPXKw0TwuQuNp46LmJeyhDE3WYy8jXP5RN67io8k2HlVAJTTkWIKw/exec';
+
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+        
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+        
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully!";
+                    msg.style.color = "green"; // Change text color to indicate success
+        
+                    setTimeout(() => {
+                        msg.innerHTML = "";
+                    }, 5000);
+        
+                    form.reset();
+                })
+                .catch(error => {
+                    msg.innerHTML = "Error sending message. Please try again!";
+                    msg.style.color = "red"; // Show error in red
+        
+                    console.error('Error!', error.message);
+                });
+        });
+        
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <span id="element"></span>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,     // Typing speed
+            backSpeed: 25,     // Speed of erasing
+            startDelay: 500,   // Delay before typing starts
+            backDelay: 1000,   // Delay before erasing starts
+            loop: true,        // Enables continuous loop
+            showCursor: true  // Hides cursor
+        });
+    </script>
+
+</body>
+
+</html>
